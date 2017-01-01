@@ -1,21 +1,21 @@
 This file describes the variables, the data, and the transformations done in the processing of the data 
 
 Variables
-  subjectTest - the subject ids for the test data 
-  xTest - the signal data for the test subjects 
-  yTest - the activity number for the test data
-  subjectTrain - the subject ids for the training data
-  xTrain - the signal data for the training subjects 
-  yTrain - the activity number for the training data
-  subjectTestComplete - combines subject Test data into 1 table (subject number, activity type, features) 
-  subjectTrainComplete - combines subject Train data into 1 table (subject number, activity type, features)  
-  testAndTrainComplete - combines Train & Test data into 1 table
-  orderedTestAndTrainComplete - sorted table based on subject#
-  featureNames - feature names to be tidied up and used as column labels
-  activityNames - activity labels
-  tidyNames - list of tidy (more descriptive & syntactically viable) variable names            
-  finalMeanandStandardDeviationData - first tidy dataset with mean and standard deviation data (angle data of weighted means included)
-  secondDataSetWithAverages - final tidy dataset with averages of mean and standard deviation data ordered by subject id
+-  subjectTest - the subject ids for the test data 
+-  xTest - the signal data for the test subjects 
+-  yTest - the activity number for the test data
+-  subjectTrain - the subject ids for the training data
+-  xTrain - the signal data for the training subjects 
+-  yTrain - the activity number for the training data
+-  subjectTestComplete - combines subject Test data into 1 table (subject number, activity type, features) 
+-  subjectTrainComplete - combines subject Train data into 1 table (subject number, activity type, features)  
+-  testAndTrainComplete - combines Train & Test data into 1 table
+-  orderedTestAndTrainComplete - sorted table based on subject#
+-  featureNames - feature names to be tidied up and used as column labels
+-  activityNames - activity labels
+-  tidyNames - list of tidy (more descriptive & syntactically viable) variable names            
+-  finalMeanandStandardDeviationData - first tidy dataset with mean and standard deviation data (angle data of weighted means included)
+-  secondDataSetWithAverages - final tidy dataset with averages of mean and standard deviation data ordered by subject id
   
 the data
   the data was extracted from various text files containing signal data from the is taken from the accelerometers from the Samsung Galaxy S smartphone. 
