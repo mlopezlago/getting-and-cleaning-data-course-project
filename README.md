@@ -1,6 +1,6 @@
 This repository contains the datafiles and the scripts created to fulfil the requirements for the getting & cleaning data course project.
 
-In it you will find the script run.analysis.R. When run, this script processes the relevant data files found in the UCI HAR Dataset folder, which contains training and test data on the accelerometers from the Samsung Galaxy S smartphone, and generates two tables (in csv files) as per the instructions:
+In it you will find the script run.analysis.R. When run, this script processes the relevant data files found in the 'UCI HAR Dataset' folder, which contains training and test data on the accelerometers from the Samsung Galaxy S smartphone, and generates two tables (in csv files) as per the instructions:
 
 - the first - mean-and-standard-deviation-data.csv - a table with all the mean and standard deviation data of the various features
 
