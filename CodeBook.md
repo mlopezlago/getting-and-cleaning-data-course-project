@@ -30,6 +30,6 @@ processing procedure
   3. Uses descriptive activity names to name the activities in the data set
     this was done using replace(). The activity numbers in the table orderedTestAndTrainComplete are reassigned the descriptive names found in activityNames, after some processing (removal of '_' and caps)
   4. Appropriately labels the data set with descriptive variable names.
-    this was done by assigning tidyNames with the descriptive names in featureNames, then running through several substitutions using sub() - swapping abbreviations for full words and including some of the descriptions in the features & features.txt and features_info.txt files - (e.g - 't' swapped for 'time.domain.signal.of' etc.). 
+    this was done by assigning tidyNames with the descriptive names in featureNames, then running through several substitutions using sub() - swapping abbreviations for full words and including some of the descriptions in the features & features.txt and features_info.txt files - (e.g - 't' swapped for 'time.domain.signal.of', use of make.names() etc.). 
   5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
     this is done using aggregate() on finalMeanandStandardDeviationData, and assinging the results to secondDataSetWithAverages, which is then written out to smartphone-mean-and-standard-deviation-averages.csv
