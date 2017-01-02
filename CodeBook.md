@@ -1,6 +1,96 @@
 This file describes the variables, the data, and the transformations done in the processing of the data 
 
 ## Variables
+subject.number - (subject id)
+activity - (walking, sitting...)
+mean.of.time.domain.signal.of.body.aceleration.x.axis
+mean.of.time.domain.signal.of.body.aceleration.y.axis
+mean.of.time.domain.signal.of.body.aceleration.z.axis
+standard.deviation.of.time.domain.signal.of.body.aceleration.x.axis
+standard.deviation.of.time.domain.signal.of.body.aceleration.y.axis
+standard.deviation.of.time.domain.signal.of.body.aceleration.z.axis
+mean.of.time.domain.signal.of.gravity.aceleration.x.axis
+mean.of.time.domain.signal.of.gravity.aceleration.y.axis
+mean.of.time.domain.signal.of.gravity.aceleration.z.axis
+standard.deviation.of.time.domain.signal.of.gravity.aceleration.x.axis
+standard.deviation.of.time.domain.signal.of.gravity.aceleration.y.axis
+standard.deviation.of.time.domain.signal.of.gravity.aceleration.z.axis
+mean.of.time.domain.signal.of.body.aceleration.jerk.x.axis
+mean.of.time.domain.signal.of.body.aceleration.jerk.y.axis
+mean.of.time.domain.signal.of.body.aceleration.jerk.z.axis
+standard.deviation.of.time.domain.signal.of.body.aceleration.jerk.x.axis
+standard.deviation.of.time.domain.signal.of.body.aceleration.jerk.y.axis
+standard.deviation.of.time.domain.signal.of.body.aceleration.jerk.z.axis
+mean.of.time.domain.signal.of.body.gyroscope.x.axis
+mean.of.time.domain.signal.of.body.gyroscope.y.axis
+mean.of.time.domain.signal.of.body.gyroscope.z.axis
+standard.deviation.of.time.domain.signal.of.body.gyroscope.x.axis
+standard.deviation.of.time.domain.signal.of.body.gyroscope.y.axis
+standard.deviation.of.time.domain.signal.of.body.gyroscope.z.axis
+mean.of.time.domain.signal.of.body.gyroscope.jerk.x.axis
+mean.of.time.domain.signal.of.body.gyroscope.jerk.y.axis
+mean.of.time.domain.signal.of.body.gyroscope.jerk.z.axis
+standard.deviation.of.time.domain.signal.of.body.gyroscope.jerk.x.axis
+standard.deviation.of.time.domain.signal.of.body.gyroscope.jerk.y.axis
+standard.deviation.of.time.domain.signal.of.body.gyroscope.jerk.z.axis
+mean.of.time.domain.signal.of.body.aceleration.magnitude
+standard.deviation.of.time.domain.signal.of.body.aceleration.magnitude
+mean.of.time.domain.signal.of.gravity.aceleration.magnitude
+standard.deviation.of.time.domain.signal.of.gravity.aceleration.magnitude
+mean.of.time.domain.signal.of.body.aceleration.jerk.magnitude
+standard.deviation.of.time.domain.signal.of.body.aceleration.jerk.magnitude
+mean.of.time.domain.signal.of.body.gyroscope.magnitude
+standard.deviation.of.time.domain.signal.of.body.gyroscope.magnitude
+mean.of.time.domain.signal.of.body.gyroscope.jerk.magnitude
+standard.deviation.of.time.domain.signal.of.body.gyroscope.jerk.magnitude
+mean.of.frequency.domain.signal.of.body.aceleration.x.axis
+mean.of.frequency.domain.signal.of.body.aceleration.y.axis
+mean.of.frequency.domain.signal.of.body.aceleration.z.axis
+standard.deviation.of.frequency.domain.signal.of.body.aceleration.x.axis
+standard.deviation.of.frequency.domain.signal.of.body.aceleration.y.axis
+standard.deviation.of.frequency.domain.signal.of.body.aceleration.z.axis
+mean.frequency.derived.from.weighted.average.of.frequency.domain.signal.of.body.aceleration.x.axis
+mean.frequency.derived.from.weighted.average.of.frequency.domain.signal.of.body.aceleration.y.axis
+mean.frequency.derived.from.weighted.average.of.frequency.domain.signal.of.body.aceleration.z.axis
+mean.of.frequency.domain.signal.of.body.aceleration.jerk.x.axis
+mean.of.frequency.domain.signal.of.body.aceleration.jerk.y.axis
+mean.of.frequency.domain.signal.of.body.aceleration.jerk.z.axis
+standard.deviation.of.frequency.domain.signal.of.body.aceleration.jerk.x.axis
+standard.deviation.of.frequency.domain.signal.of.body.aceleration.jerk.y.axis
+standard.deviation.of.frequency.domain.signal.of.body.aceleration.jerk.z.axis
+mean.frequency.derived.from.weighted.average.of.frequency.domain.signal.of.body.aceleration.jerk.x.axis
+mean.frequency.derived.from.weighted.average.of.frequency.domain.signal.of.body.aceleration.jerk.y.axis
+mean.frequency.derived.from.weighted.average.of.frequency.domain.signal.of.body.aceleration.jerk.z.axis
+mean.of.frequency.domain.signal.of.body.gyroscope.x.axis
+mean.of.frequency.domain.signal.of.body.gyroscope.y.axis
+mean.of.frequency.domain.signal.of.body.gyroscope.z.axis
+standard.deviation.of.frequency.domain.signal.of.body.gyroscope.x.axis
+standard.deviation.of.frequency.domain.signal.of.body.gyroscope.y.axis
+standard.deviation.of.frequency.domain.signal.of.body.gyroscope.z.axis
+mean.frequency.derived.from.weighted.average.of.frequency.domain.signal.of.body.gyroscope.x.axis
+mean.frequency.derived.from.weighted.average.of.frequency.domain.signal.of.body.gyroscope.y.axis
+mean.frequency.derived.from.weighted.average.of.frequency.domain.signal.of.body.gyroscope.z.axis
+mean.of.frequency.domain.signal.of.body.aceleration.magnitude
+standard.deviation.of.frequency.domain.signal.of.body.aceleration.magnitude
+mean.frequency.derived.from.weighted.average.of.frequency.domain.signal.of.body.aceleration.magnitude
+mean.of.frequency.domain.signal.of.body.aceleration.jerk.magnitude
+standard.deviation.of.frequency.domain.signal.of.body.aceleration.jerk.magnitude
+mean.frequency.derived.from.weighted.average.of.frequency.domain.signal.of.body.aceleration.jerk.magnitude
+mean.of.frequency.domain.signal.of.body.gyroscope.magnitude
+standard.deviation.of.frequency.domain.signal.of.body.gyroscope.magnitude
+mean.frequency.derived.from.weighted.average.of.frequency.domain.signal.of.body.gyroscope.magnitude
+mean.of.frequency.domain.signal.of.body.gyroscope.jerk.magnitude
+standard.deviation.of.frequency.domain.signal.of.body.gyroscope.jerk.magnitude
+mean.frequency.derived.from.weighted.average.of.frequency.domain.signal.of.body.gyroscope.jerk.magnitude
+angle.of.time.domain.signal.of.body.aceleration.mean.and.gravity
+angle.of.time.domain.signal.of.body.aceleration.jerk.mean.and.gravity.mean
+angle.of.time.domain.signal.of.body.gyroscope.mean.and.gravity.mean
+angle.of.time.domain.signal.of.body.gyroscope.jerk.mean.and.gravity.mean
+angle.of.x.and.gravity.mean
+angle.of.y.and.gravity.mean
+angle.of.z.and.gravity.mean
+
+### variables used in the script
 -  subjectTest - the subject ids for the test data 
 -  xTest - the signal data for the test subjects 
 -  yTest - the activity number for the test data
