@@ -1,8 +1,11 @@
 This file describes the variables, the data, and the transformations done in the processing of the data 
 
 ## Variables 
-- subject.number - (subject id)
-- activity - (walking, sitting...)
+- subject.number - (subject id - [1,30])
+- activity - (levels - walking, walking.upstairs, walking.downstairs, sitting, standing, laying)
+
+the following variables are normalized and bounded within [-1,1]
+
 - mean.of.time.domain.signal.of.body.aceleration.x.axis
 - mean.of.time.domain.signal.of.body.aceleration.y.axis
 - mean.of.time.domain.signal.of.body.aceleration.z.axis
