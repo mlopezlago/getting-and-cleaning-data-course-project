@@ -11,7 +11,7 @@ first, the txt files containing the data for the training and tests are read and
 
 The relevant columns (those containing mean and standard deviation data) were then selected and assigned to a new variable. The result is a tidy data set containing 1 column per variable that is descriptively named (as well as sytactically valid), and rows containing each observation. The average of each variable for each activity and each subject is then taken and the resulting table is then ordered by subject number.
 
-the final result is the second tidy dataset, which is written out to smartphone-mean-and-standard-deviation-averages.csv, as per the instructions.
+the final result is the second tidy dataset, which is written out to smartphone-mean-and-standard-deviation-averages.txt, as per the instructions.
 
 
 
