@@ -1,6 +1,6 @@
 This file describes the variables, the data, and the transformations done in the processing of the data 
 
-## Variables
+## Variables 
 subject.number - (subject id)
 activity - (walking, sitting...)
 mean.of.time.domain.signal.of.body.aceleration.x.axis
