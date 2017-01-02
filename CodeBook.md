@@ -1,6 +1,6 @@
 This file describes the variables, the data, and the transformations done in the processing of the data 
 
-# H2 Variables
+## Variables
 -  subjectTest - the subject ids for the test data 
 -  xTest - the signal data for the test subjects 
 -  yTest - the activity number for the test data
@@ -17,11 +17,11 @@ This file describes the variables, the data, and the transformations done in the
 -  finalMeanandStandardDeviationData - first tidy dataset with mean and standard deviation data (angle data of weighted means included)
 -  secondDataSetWithAverages - final tidy dataset with averages of mean and standard deviation data ordered by subject id
   
-# H2 the data
+## the data
   the data was extracted from various text files containing signal data from the is taken from the accelerometers from the Samsung Galaxy S smartphone. 
   Details of the data can be found at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
   
-# H2 processing procedure
+## processing procedure
   1. Merges the training and the test sets to create one data set.
     this is done by reading the training and the test sets into the variables: subjectTest, xTest, yTest, subjectTrain, xTrain & yTrain
     and using cbind and rbind, combining them in subjectTestComplete & subjectTrainComplete, and then subsequently into testAndTrainComplete
