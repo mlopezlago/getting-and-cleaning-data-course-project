@@ -4,7 +4,7 @@ This file describes the variables, the data, and the transformations done in the
 - subject.number - (subject id - [1,30])
 - activity - (levels - walking, walking.upstairs, walking.downstairs, sitting, standing, laying)
 
-the following variables are normalized and bounded within [-1,1] then the averages were taken for each activity per subject
+the following variables are normalized and bounded within [-1,1] then the averages were taken for each activity per subject:
 
 - mean.of.time.domain.signal.of.body.aceleration.x.axis
 - mean.of.time.domain.signal.of.body.aceleration.y.axis
@@ -85,13 +85,13 @@ the following variables are normalized and bounded within [-1,1] then the averag
 - mean.of.frequency.domain.signal.of.body.gyroscope.jerk.magnitude
 - standard.deviation.of.frequency.domain.signal.of.body.gyroscope.jerk.magnitude
 - mean.frequency.derived.from.weighted.average.of.frequency.domain.signal.of.body.gyroscope.jerk.magnitude
-- angle.of.time.domain.signal.of.body.aceleration.mean.and.gravity
-- angle.of.time.domain.signal.of.body.aceleration.jerk.mean.and.gravity.mean
-- angle.of.time.domain.signal.of.body.gyroscope.mean.and.gravity.mean
-- angle.of.time.domain.signal.of.body.gyroscope.jerk.mean.and.gravity.mean
-- angle.of.x.and.gravity.mean
-- angle.of.y.and.gravity.mean
-- angle.of.z.and.gravity.mean
+- angle.of.time.domain.signal.of.body.aceleration.mean.and.gravity (Additional vectors obtained by averaging the signals in a signal window sample.)
+- angle.of.time.domain.signal.of.body.aceleration.jerk.mean.and.gravity.mean (Additional vectors obtained by averaging the signals in a signal window sample.)
+- angle.of.time.domain.signal.of.body.gyroscope.mean.and.gravity.mean (Additional vectors obtained by averaging the signals in a signal window sample.)
+- angle.of.time.domain.signal.of.body.gyroscope.jerk.mean.and.gravity.mean (Additional vectors obtained by averaging the signals in a signal window sample.)
+- angle.of.x.and.gravity.mean (Additional vectors obtained by averaging the signals in a signal window sample.)
+- angle.of.y.and.gravity.mean (Additional vectors obtained by averaging the signals in a signal window sample.)
+- angle.of.z.and.gravity.mean (Additional vectors obtained by averaging the signals in a signal window sample.)
 
 ### variables used in the script
 -  subjectTest - the subject ids for the test data 
