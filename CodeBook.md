@@ -4,7 +4,7 @@ This file describes the variables, the data, and the transformations done in the
 - subject.number - (subject id - [1,30])
 - activity - (levels - walking, walking.upstairs, walking.downstairs, sitting, standing, laying)
 
-the following variables are normalized and bounded within [-1,1]
+the following variables are normalized and bounded within [-1,1] then the averages were taken for each activity per subject
 
 - mean.of.time.domain.signal.of.body.aceleration.x.axis
 - mean.of.time.domain.signal.of.body.aceleration.y.axis
